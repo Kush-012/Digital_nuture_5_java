@@ -1,0 +1,24 @@
+20. Try-Catch Example
+• Objective: Handle exceptions gracefully.
+• Task: Handle division by zero using try-catch.
+• Instructions:
+o Prompt the user for two integers.
+o Attempt to divide the first by the second.
+o Catch any ArithmeticException and display an appropriate message.
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int a=5;
+      int b=0;
+      try{
+      int c=a/b;
+      }
+      catch(Exception e){
+        System.out.println("Error");
+      }
+    }
+    
+} 
+    
