@@ -1,2 +1,15 @@
 (parameters)->expression
 It introduced in java 8 a consise way of representing the fucntions.
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      List<String>l=new ArrayList<>();
+      l.add("Kush");
+      l.add("Mehta");
+      Collections.sort(l,(a,b)->a.compareTo(b));
+      System.out.println(l);
+
+    }
+} 
