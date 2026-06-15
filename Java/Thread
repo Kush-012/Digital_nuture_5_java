@@ -1,0 +1,10 @@
+Thread is a smallest unit of execution inside the program.
+Suppose you are:
+
+Listening to music 🎵
+Chatting on WhatsApp 💬
+Downloading a file 📥
+
+All these activities happen at the same time.
+
+Similarly, a Java program can run multiple threads.
