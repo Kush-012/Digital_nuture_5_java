@@ -1,1 +1,49 @@
+Spring is a dependency injection framework to make loosely coupled java applications.
+
+Modules:
+1. Spring core modules:
+core
+beans
+context
+spEL
+
+AOP
+Aspect
+Instrumentation
+Messaging
+
+2. Data access:
+JDBC
+ORM
+JMS
+OXM
+
+3. Web
+protlet
+servlet
+web
+web socket
+
+4. Test
+
+Spring IoC Container
+Takes beans and config files and give object which we can use in applictaion code
+
+ApplicationContext => Interface
+1. ClasspathXML
+2. FileSystemXML
+3. AnnotationConfig
+
+Dependency Injection can be done in 2 ways:
+1. Using setter injection 
+2. Using constructor injection
+
+Configuration file
+XML
+We write all beans (classess) and other things
+
+Data type dependencies:
+1. primitive
+2. collections
+3. Reference Tyoe
 
