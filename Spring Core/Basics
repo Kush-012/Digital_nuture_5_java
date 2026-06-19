@@ -47,3 +47,8 @@ Data type dependencies:
 2. collections
 3. Reference Tyoe
 
+Maven: Project management tool
+POM file => (Project Object Model) keeps tracks of all dependencies of project,
+              Java version, packaging (jar/war).
+
+
