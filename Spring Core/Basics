@@ -35,7 +35,7 @@ ApplicationContext => Interface
 3. AnnotationConfig
 
 Dependency Injection can be done in 2 ways:
-1. Using setter injection 
+1. Using setter injection / Property injection
 2. Using constructor injection
 
 Configuration file
