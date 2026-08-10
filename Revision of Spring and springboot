@@ -97,3 +97,8 @@ dependencies are managed in pom.xml, and the target folder contains the compiled
 
 
 dispatcher servlet: front controller receives all incomming http reqs , coordinates with helper components by route. and return back to client 
+
+
+agile: iterative approach like project is divided into sprints, reterospective session is conducted after each sprints
+waterfall: sequential approach like design, development, testing, deployment
+
