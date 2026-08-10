@@ -99,6 +99,8 @@ dependencies are managed in pom.xml, and the target folder contains the compiled
 dispatcher servlet: front controller receives all incomming http reqs , coordinates with helper components by route. and return back to client 
 
 
-agile: iterative approach like project is divided into sprints, reterospective session is conducted after each sprints
+agile: iterative approach like project is divided into sprints, reterospective session is conducted after each sprints allowing feedback and changes.
+scrum master: who manages sprints or track progess
+Product Owner: who define the task.
+like Jira is used.
 waterfall: sequential approach like design, development, testing, deployment
-
