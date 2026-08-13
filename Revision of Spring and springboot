@@ -7,6 +7,18 @@ dependency injection framework (made to reduce tight coupling)
 manual configuration in foam of xml and annotation based by creating applicationcontext object
 no embedded server provided. use external server by packaging in form of WAR.
 
+spring starter web:
+containg initial configuraations by default 
+containing tomacat, jakson(json to java objects(POJO)), REST support
+
+spring mvc:
+It is spring dependency for making the application low coupled by model,view,controller
+it uses dispatcher servlet as front controller => req is mappeed with specific controller by handler mapping =>
+it is passed to specific controller => further pass to service layer=> to repository
+
+DTO=> used for security
+prevent database direct contact with controller or service layers or client.
+
 Working/Archietecture of spring boot:
 client => controller => service => repository
 
@@ -24,7 +36,7 @@ central repo
 
 3 lifecycle:
 clean=> clean target folder
-default=> compile,package,depoly
+default=> validate, compile,test,package
 site=> used for documentataion
 
 mvn spring-boot:run: used to run spring boot 
